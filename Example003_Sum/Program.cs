@@ -1,11 +1,11 @@
 ﻿// Сумма двух целых чисел
-int numberA = 3;
+Console.WriteLine("Сумма 2-х целых чисел, случайно выбираемых из диапазона [1,10)");
+int numberA = new Random().Next(1,10); //1,2,3 ... 9
 Console.WriteLine(numberA);
-int numberB = 5;
+int numberB = new Random().Next(1,10);
 Console.WriteLine(numberB);
 int result = numberA + numberB;
 
-Console.Write("Сумма: ");
 Console.WriteLine(result);
 
 
